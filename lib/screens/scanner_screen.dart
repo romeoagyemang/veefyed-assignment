@@ -4,6 +4,8 @@ import 'result_screen.dart';
 import '../widgets/loading_indicator.dart';
 
 class ScannerScreen extends StatefulWidget {
+  const ScannerScreen({super.key});
+
   @override
   // ignore: library_private_types_in_public_api
   _ScannerScreenState createState() => _ScannerScreenState();

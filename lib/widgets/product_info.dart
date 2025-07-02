@@ -6,6 +6,7 @@ class ProductInfo extends StatelessWidget {
   final List<String> ingredients;
 
   const ProductInfo({
+    super.key,
     required this.isVerified,
     required this.productName,
     required this.ingredients,
